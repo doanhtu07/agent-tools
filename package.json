@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "keywords": [],
+  "packageManager": "pnpm@12.23.0",
+  "scripts": {
+    "prepare": "husky",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm -r --if-present lint",
+    "where": "node scripts/where.mjs",
+    "where:mcp": "node scripts/where.mjs mcp",
+    "where:skills": "node scripts/where.mjs skills"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10"
+  }
+}
