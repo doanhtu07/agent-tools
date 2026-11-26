@@ -15,3 +15,7 @@ pnpm install
 ## Tools
 
 - [`pnpm where`](docs/where.md) — find where MCP servers and skills are defined, and which copy wins
+
+- [`scripts/run-playwright-mcp.sh`](scripts/run-playwright-mcp.sh) — Playwright MCP pinned to this repo's `@playwright/mcp`, driving installed Chrome. Registered globally for both Claude Code and OpenCode.
+
+- [`Cua Driver`](docs/cua-driver.md) — standalone install notes for the Cua Driver desktop-automation daemon (macOS, Windows, Linux).
